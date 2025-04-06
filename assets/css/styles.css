@@ -89,7 +89,7 @@ html , body{
 
 .hero {
     height: 100vh; /* Full-screen height */
-    background: url('assets/images/hero_image.png') center/cover no-repeat;
+    background: url('assets/images/hero_image.PNG') center/cover no-repeat;
 }
 
 .animate-on-scroll{
