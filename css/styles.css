@@ -120,6 +120,9 @@ html , body{
     
 }
 .video-conainer{
+    border: 3px solid #2D2D2D;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px #7f56d9;
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
