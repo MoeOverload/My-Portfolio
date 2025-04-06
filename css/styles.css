@@ -107,9 +107,9 @@ html , body{
 }
 
 /*CSS For Content*/
-/*#back{
+#back{
     background-color: #101010;
-}*/
+}
 #content-container{
     border: 3px solid #2D2D2D;
     border-radius: 6px;
