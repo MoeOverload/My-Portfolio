@@ -123,7 +123,8 @@ html , body{
     
 }
 .video-container{
-    max-width: 100%;
+    max-height: 80%;
+    max-width: 80;
     border: 2px solid #2D2D2D;
     border-radius: 6px;
     box-shadow: 0 4px 12px #7f56d9;
