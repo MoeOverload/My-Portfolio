@@ -10,7 +10,7 @@
     #text-content ul{
     font-size: 1rem;
       line-height: 1.6;
-      text-align: left;
+      text-align: inherit;
     }
 
     h1.Headings{
