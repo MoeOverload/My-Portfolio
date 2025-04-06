@@ -110,7 +110,7 @@ html , body{
 #back{
     background-color: #101010;
 }
-#content-container{
+.content-container{
     border: 3px solid #2D2D2D;
     border-radius: 6px;
     box-shadow: 0 4px 12px #7f56d9;
@@ -128,7 +128,7 @@ html , body{
     padding-bottom: 4%;
 
 }
-#subheading{
+.subheading{
     color: #CCCCCC;
     
 }
