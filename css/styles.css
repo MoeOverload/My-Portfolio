@@ -119,7 +119,7 @@ html , body{
     background-color: #161616;
     
 }
-.video-conainer{
+.video-container{
     border: 3px solid #2D2D2D;
     border-radius: 6px;
     box-shadow: 0 4px 12px #7f56d9;
@@ -129,7 +129,7 @@ html , body{
     overflow: hidden;
     max-width: 90%;
 }
-.video-conainer iframe{
+.video-container iframe{
     position: absolute;
     top: 0;
     left: 0;
