@@ -138,7 +138,7 @@ html , body{
 }
 @media (min-width: 768px) {
     .video-container {
-      max-width: 600px; /* or whatever preview size feels good */
+      max-width: 300px; /* or whatever preview size feels good */
     }
   }
 .Headings{
