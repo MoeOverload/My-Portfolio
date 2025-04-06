@@ -142,7 +142,7 @@ html , body{
 #footer{
     background-color: #161616;
     word-spacing:3px;
-    text-align: justify;
+    text-align:left;
     font-size: large;
     padding: 2%;
     
