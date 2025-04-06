@@ -123,7 +123,7 @@ html , body{
     
 }
 .video-container{
-    justify-self: center;
+    justify-content: center;
     width: 100%;
     max-width: 800px;
     border: 2px solid #2D2D2D;
