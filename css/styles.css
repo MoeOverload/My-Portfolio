@@ -172,3 +172,13 @@ html , body{
     padding: 2%;
     
 }
+a {
+    color: #3E7CFF;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #6DA8FF; /* Optional lighter hover effect */
+    text-decoration: underline;
+}
