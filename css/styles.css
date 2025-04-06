@@ -3,6 +3,7 @@
 @media (max-width: 768px) {
     #content-container {
       padding: 1rem;
+      margin: 2%;
     }
   
     #text-content p,
