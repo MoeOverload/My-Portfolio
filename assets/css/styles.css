@@ -1,0 +1,150 @@
+
+
+@media (max-width: 768px) {
+    #content-container {
+      padding: 1rem;
+    }
+  
+    #text-content p,
+    #text-content ul{
+    font-size: 1rem;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    h1.Headings{
+        font-size: 1.4rem;
+        line-height: 1.6;
+        text-align: center;
+      
+    }
+    h3#subheading{
+        font-size: 1.3rem;
+        line-height: 1.2;
+        text-align: left;
+
+    }
+    header.hero h1,
+    header.hero h3,
+    header.hero h4 {
+      font-size: 1.2rem;
+    }
+  
+    header.hero {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    
+    
+  }
+  
+/* handles the smooth scrolling and sticky nav*/
+html , body{
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background: #161616;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 1000;
+}
+#toTopButton{
+    padding-left: 10%;
+    bottom: 20px;
+    right: 20px;
+   
+}
+.nav_box {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.nav_box li {
+    display: inline;
+}
+
+.nav_box a {
+    color: #CCCCCC;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+.nav_box a:hover {
+    color: #7f56d9;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.hero {
+    height: 100vh; /* Full-screen height */
+    background: url('/portfolio_web/assets/images/hero_image.png') center/cover no-repeat;
+}
+
+.animate-on-scroll{
+    opacity: 0;
+    transform: translate(30px);
+    transition: all 0.6s ease-out;
+}
+.animate-on-scroll.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+.animate-on-scroll.fade-out{
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/*CSS For Content*/
+#back{
+    background-color: #101010;
+}
+#content-container{
+    border: 3px solid #2D2D2D;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px #7f56d9;
+    padding: 3%;
+    margin: 10%;
+    background-color: #161616;
+    
+}
+.Headings{
+    color: #CCCCCC;
+    text-align: center;
+    text-underline-position: below;
+    text-decoration: underline;
+    text-decoration-color:#2D2D2D ;
+    padding-bottom: 4%;
+
+}
+#subheading{
+    color: #CCCCCC;
+    
+}
+.text-content{
+    color: #CCCCCC;
+    text-indent: 5%;
+    word-spacing:3px;
+    text-align: justify;
+    font-size: large;
+    
+}
+#footer{
+    background-color: #161616;
+    word-spacing:3px;
+    text-align: justify;
+    font-size: large;
+    padding: 2%;
+    
+}
