@@ -111,6 +111,9 @@ html , body{
     background-color: #101010;
 }
 .content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 3px solid #2D2D2D;
     border-radius: 6px;
     box-shadow: 0 4px 12px #7f56d9;
@@ -119,17 +122,24 @@ html , body{
     background-color: #161616;
     
 }
-.content-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .video-container {
-    width: 90%;
-    max-width: 600px;
-    /* same styling as before */
-  }
+.video-container{
+    border: 2px solid #2D2D2D;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px #7f56d9;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.video-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .Headings{
     color: #CCCCCC;
     text-align: center;
