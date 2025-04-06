@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll('.animate-on-scroll');
     const observer = new IntersectionObserver((entries)=>{
         entries.forEach(entry=>{
-            if (entry.intersectionRatio < 0.6){
+            if (entry.intersectionRatio < 0.3){
                 entry.target.classList.remove('visible');
                 entry.target.classList.add('fade-out');
 
