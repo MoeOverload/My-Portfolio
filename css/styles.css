@@ -136,7 +136,7 @@ html , body{
     color: #CCCCCC;
     text-indent: 5%;
     word-spacing:3px;
-    text-align:inherit;
+    text-align:left;
     font-size: large;
        
 }
