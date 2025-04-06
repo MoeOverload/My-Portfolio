@@ -134,10 +134,10 @@ html , body{
 }
 .text-content{
     color: #CCCCCC;
-    text-indent: 5%;
+    text-indent: 3%;
     word-spacing:3px;
     text-align:left;
-    padding-right: 6%;
+    padding-right: 10%;
     font-size: large;
        
 }
