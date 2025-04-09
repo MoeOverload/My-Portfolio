@@ -5,8 +5,8 @@
       padding: 1rem;
     }
   
-    #text-content p,
-    #text-content ul{
+    .text-content p,
+    .text-content ul{
         font-size: small;
         line-height: 1.6;
         text-align: inherit;
@@ -18,7 +18,7 @@
         text-align: center;
       
     }
-    h3#subheading{
+    h3.subheading{
         font-size: 1.3rem;
         line-height: 1.2;
         text-align: left;
