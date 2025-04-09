@@ -160,6 +160,7 @@ html , body{
 
 /* Text content styles (headings subheading text)*/
 .Headings{
+    font-size: large;
     color: #CCCCCC;
     text-align: center;
     text-underline-position: below;
@@ -169,6 +170,7 @@ html , body{
 
 }
 .subheading{
+    font-size: large;
     color: #CCCCCC;
     text-align: inherit;
     padding-left: 7%;
