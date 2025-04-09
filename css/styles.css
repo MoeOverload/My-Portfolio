@@ -182,12 +182,13 @@ html , body{
        
 }
 .list-content{
+    list-style-type: none;
     color: #CCCCCC;
     word-spacing:3px;
     text-align:inherit;
     font-size: large;
     padding-left: 3%; 
-    list-style-type: none;
+    
 }
 
 /* footer style*/
