@@ -13,13 +13,13 @@
     }
 
     h1.Headings{
-        font-size: large;
+        font-size: 1.5rem;
         line-height: 1.6;
         text-align: center;
       
     }
     h3#subheading{
-        font-size:medium;
+        font-size: 1.3rem;
         line-height: 1.2;
         text-align: left;
 
