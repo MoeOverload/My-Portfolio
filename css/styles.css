@@ -162,7 +162,6 @@ html , body{
 .Headings{
     color: #CCCCCC;
     text-align: center;
-    font-size: large;
     text-underline-position: below;
     text-decoration: underline;
     text-decoration-color:#2D2D2D ;
@@ -173,7 +172,6 @@ html , body{
     color: #CCCCCC;
     text-align: inherit;
     padding-left: 10%;
-    font-size: large;
 }
 .text-content{
     color: #CCCCCC;
