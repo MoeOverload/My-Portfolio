@@ -1,5 +1,5 @@
 
-
+/*MOBILE VIEW STYLES*/ 
 @media (max-width: 768px) {
     #content-container {
       padding: 1rem;
@@ -38,7 +38,7 @@
     
   }
   
-/* handles the smooth scrolling and sticky nav*/
+/* handles the smooth scrolling*/
 html , body{
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
@@ -47,6 +47,8 @@ html , body{
     background-color: #101010;
 }
 
+
+/*Stick nav box Animation*/
 .sticky-nav {
     position: sticky;
     top: 0;
@@ -55,12 +57,9 @@ html , body{
     width: 100%;
     z-index: 1000;
 }
-#toTopButton{
-    padding-left: 10%;
-    bottom: 20px;
-    right: 20px;
-   
-}
+
+
+/*nav box style*/
 .nav_box {
     display: flex;
     justify-content: center;
@@ -69,11 +68,12 @@ html , body{
     margin: 0;
     gap: 20px;
 }
-
 .nav_box li {
     display: inline;
 }
 
+
+/*Nav Link Style*/
 .nav_box a {
     color: #CCCCCC;
     text-decoration: none;
@@ -81,17 +81,23 @@ html , body{
     transition: color 0.3s ease, background 0.3s ease;
 }
 
+
+/*Nav Hover Animation*/
 .nav_box a:hover {
     color: #7f56d9;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
 }
 
+
+/*Hero section Style*/
 .hero {
     height: 100vh; /* Full-screen height */
     background: url('../assets/images/hero_image.png') center/cover no-repeat;
 }
 
+
+/* Scoll animation style*/
 .animate-on-scroll{
     opacity: 0;
     transform: translate(30px);
@@ -106,10 +112,17 @@ html , body{
     transform: translateY(20px);
 }
 
-/*CSS For Content*/
+
+
+
+/*Page Background Color*/
 #back{
     background-color: #101010;
 }
+
+
+
+/*Content Block Style*/
 .content-container{
     display: flex;
     flex-direction: column;
@@ -122,17 +135,18 @@ html , body{
     background-color: #161616;
     
 }
+
+
+/*Video Styles*/
 .video-container{
     max-width: 100%;
     border: 2px solid #2D2D2D;
     border-radius: 6px;
     box-shadow: 0 4px 12px #7f56d9;
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%; /* dont touch this, it breaks the video aspect ratio */
     height: 0;
     overflow: hidden;
-   
-    
 }
 .video-container iframe{
     position: absolute;
@@ -142,6 +156,9 @@ html , body{
     height: 100%;
 }
 
+
+
+/* Text content styles (headings subheading text)*/
 .Headings{
     color: #CCCCCC;
     text-align: center;
@@ -163,6 +180,9 @@ html , body{
     padding-left: 6%;
        
 }
+
+
+/* footer style*/
 #footer{
     background-color: #161616;
     color: #1f1f1f;
@@ -170,15 +190,26 @@ html , body{
     text-align:left;
     font-size: large;
     padding: 2%;
-    
 }
+
+
+/* Link color scheme*/
 a {
     color: #3E7CFF;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
 
+/*lighter hover effect */
 a:hover {
-    color: #6DA8FF; /* Optional lighter hover effect */
+    color: #6DA8FF; 
     text-decoration: underline;
+}
+
+
+/*TO The Top Button*/
+#toTopButton{
+    padding-left: 10%;
+    bottom: 20px;
+    right: 20px;
 }
