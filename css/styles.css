@@ -162,6 +162,7 @@ html , body{
 .Headings{
     color: #CCCCCC;
     text-align: center;
+    font-size: large;
     text-underline-position: below;
     text-decoration: underline;
     text-decoration-color:#2D2D2D ;
@@ -178,7 +179,7 @@ html , body{
     color: #CCCCCC;
     word-spacing:3px;
     text-align:inherit;
-    font-size: large;
+    font-size: medium;
     padding-left: 7%;
     padding-right: 7%;
        
