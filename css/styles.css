@@ -177,11 +177,18 @@ html , body{
     word-spacing:3px;
     text-align:inherit;
     font-size: large;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
        
 }
-
+.list-content{
+    color: #CCCCCC;
+    word-spacing:3px;
+    text-align:inherit;
+    font-size: large;
+    padding-left: 3%; 
+    list-style-type: none;
+}
 
 /* footer style*/
 #footer{
