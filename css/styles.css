@@ -160,7 +160,7 @@ html , body{
 
 /* Text content styles (headings subheading text)*/
 .Headings{
-    font-size: larger;
+    font-size: large;
     color: #CCCCCC;
     text-align: center;
     text-underline-position: below;
