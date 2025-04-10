@@ -222,7 +222,7 @@ a:hover {
 #kofilinkcontainer{
     max-width: 100%;
 }
-#kofilink{
+#kofilinkcontainer link{
     width: 20px;
     
 }
