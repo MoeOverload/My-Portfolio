@@ -220,7 +220,7 @@ a:hover {
 
 /*Kofi link png style*/
 #kofilinkcontainer{
-    max-width: 100%;
+    max-width: 50%;
 }
 #kofilinkcontainer image{
     width: 200px;
