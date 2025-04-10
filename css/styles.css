@@ -7,19 +7,19 @@
   
     .text-content p,
     .text-content ul{
-        font-size: small;
+        font-size: 2vw;
         line-height: 1.6;
         text-align: inherit;
     }
 
     h1.Headings{
-        font-size: large;
+        font-size: 2vw;
         line-height: 1.6;
         text-align: center;
       
     }
     h3.subheading{
-        font-size: medium;
+        font-size: 2vw;
         line-height: 1.2;
         text-align: center;
 
