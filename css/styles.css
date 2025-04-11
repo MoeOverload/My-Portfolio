@@ -12,13 +12,13 @@
         text-align: inherit;
     }
 
-    h1.Headings{
+    .Headings{
         font-size: 1.6rem;
         line-height: 1.6;
         text-align: center;
       
     }
-    h3.subheading{
+    .subheading{
         font-size: 1.3rem;
         line-height: 1.2;
         text-align: center;
