@@ -34,7 +34,12 @@
       padding: 2rem 1rem;
       text-align: center;
     }
+    /*Kofi link png style*/
+    #kofilink{
+    width: 100px;
+    height: auto;
     
+}
     
   }
   
