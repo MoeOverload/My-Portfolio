@@ -81,7 +81,10 @@ html , body{
     transition: color 0.3s ease, background 0.3s ease;
 }
 
-
+.navbar-brand{
+    width: 10px;
+    height: auto;
+}
 /*Nav Hover Animation*/
 .nav_box a:hover {
     color: #7f56d9;
