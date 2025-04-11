@@ -25,8 +25,7 @@
 
     }
     header.hero h1,
-    header.hero h3,
-    header.hero h4 {
+    header.hero h3{
       font-size: 1.2rem;
     }
   
