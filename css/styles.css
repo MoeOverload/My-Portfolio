@@ -160,6 +160,7 @@ html , body{
 
 /* Text content styles (headings subheading text)*/
 .Headings{
+    padding-top: 6%;
     font-size: 3rem;
     color: #CCCCCC;
     text-align: center;
