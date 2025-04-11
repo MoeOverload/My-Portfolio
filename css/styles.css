@@ -146,13 +146,13 @@ html , body{
 
 /*Video Styles*/
 .video-container{
-    max-width: 100%;
+    max-width: 50%;
     border: 2px solid #2D2D2D;
     border-radius: 6px;
     box-shadow: 0 4px 12px #7f56d9;
     position: relative;
     padding-bottom: 56.25%; /* dont touch this, it breaks the video aspect ratio */
-    height: 0;
+    height: auto;
     overflow: hidden;
 }
 .video-container iframe{
