@@ -219,13 +219,8 @@ a:hover {
 }
 
 /*Kofi link png style*/
-#kofilinkcontainer{
-    max-width: 50%;
-    height: auto;
-    overflow: hidden;
-   
-}
 #kofilink{
-    width: 40%;
+    width: 120px;
+    height: auto;
     
 }
