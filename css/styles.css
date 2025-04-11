@@ -221,7 +221,8 @@ a:hover {
 /*Kofi link png style*/
 #kofilinkcontainer{
     max-width: 100%;
-    
+    height: auto;
+    overflow: hidden;
    
 }
 #kofilinkcontainer img{
