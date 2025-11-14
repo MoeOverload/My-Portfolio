@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
+    //todo add light dark mode
+    //add dad joke generator
+    //email msg 
     // Smooth scrolling for internal links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function(e) {
