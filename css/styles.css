@@ -99,7 +99,7 @@ html , body{
 
 /*Hero section Style*/
 .hero {
-    height: 60vh; /* Full-screen height */
+    height: 100vh; /* Full-screen height */
     background: url('../assets/images/hero_image.png') center/cover no-repeat;
 }
 
