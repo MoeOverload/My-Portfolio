@@ -177,7 +177,8 @@ html , body{
 }
 
 #card{
-    background-color: #7f56d9;
+    background-color:#2D2D2D;
+    color: #CCCCCC;
 }
 /* footer style*/
 #footer{
